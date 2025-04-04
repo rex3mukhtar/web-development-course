@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+
+    <title>replit</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <h1>BADMITON : My favourite sport</h1>
+    <h2>My story with Badminton</h2>
+    I have been playing badminton for the past <i>5 years</i>.<br>
+    The badminton classes I joined was <mark>Victor Badminton Academy</mark>.<br>
+    Achieved <strong>Winners</strong> and <strong>Runners up</strong> positions.<br>
+    <h3>Advantages of Badminton</h3>
+    <p>
+        Badminton improves <q>muscles strength, heart functioning, flexibility</q>. It offers the <q>perfect balance of physical and mental challenges</q>. It's fast-paced, exciting, and offers endless opportunities for improvement. Playing badminton is not just good for physical fitness, but also for mental well-being, <i>it's a great stress buster.</i>
+    </p>
+    <h3>Disadvantages of Badminton</h3>
+    <p>
+        <q>Badminton is not without risks</q>. Players can experience injuries such as sprains. While basic badminton equipment is <strong>affordable</strong>, quality racquets, shoes, and other accessories can be <strong>relatively expensive</strong>, <q>especially for competitive players</q>. While competition can be motivating, it may also lead to stress and anxiety for players, particularly young athletes.
+    </p>
+    <mark>In conclusion, Badminton has been a <sup>very</sup> part of my life.</mark>
+
+</body>
+
+</html>
