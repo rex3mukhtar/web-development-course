@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+
+    <title>replit</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+    <h1>Biryani : My Best-Loved Dish</h1>
+    <p>Biryani is a mixed dish popular in South Asia, made with <b>rice</b> and <b>meat</b> of the consumer's choice. To cater to vegetarians, the meat can be substituted with <b>vegetables</b> or <b>paneer</b>.</p>
+    <h2>Origins of Biryani</h2>
+    The origins of biryani can be traced back to ancient Persia <i>modern-day Iran</i>, where a similar dish called <q>pulao</q> or <q>pilaf</q> was prepared.<br>
+    Another theory states that, biryani made it's way into India through the Mughal Empire, under the rule of King Babur.<br>
+    <h3>Types of Biryani</h3>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Place</th>
+            <th>Consumer's choice</th>
+        </tr>
+        <tr>
+            <td>Hyderbadi Biryani</td>
+            <td>Hyderbad</td>
+            <td>Meat</td>
+        </tr>
+        <tr>
+            <td>Awadhi Biryani</td>
+            <td>Lucknow</td>
+            <td>Chicken</td>
+        </tr>
+        <tr>
+            <td>Kolkata Biryani</td>
+            <td>Kolkata</td>
+            <td>Fish</td>
+        </tr>
+    </table>
+    The above are just few examples of the many. If we were to blantly put some types, there are: <q>Tehari, Kalyani, Bombay, Malabari, Memoni, Beary</q> biryani, yet leaving endless options.<br>
+    <h3>Important Ingrediants</h3>
+    <ul>
+        <li>Rice</li>
+        <li>Meat or Vegetables</li>
+        <li>Yogurt</li>
+        <li>Onions</li>
+        <li>Spices <i>(e.g., cumin, cinnamon, cardamom, cloves, bay leaves, and saffron)</i></li>
+        <li>Tomatoes</li>
+        <li>Garnish</li>
+    </ul>
+    <h3>Making of Biryani</h3>
+    Best way to make Biryani is given below:
+    <a href="https://www.indianhealthyrecipes.com/chicken-biryani-recipe/"> Cook here!</a>
+    <h2>Thank you!</h2>
+</body>
+
+</html>
