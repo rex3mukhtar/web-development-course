@@ -1,1 +1,46 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+
+    <title>replit</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <h1>Biryani : My Most-Beloved Dish</h1>
+    <img src="biryani.jpg"> 
+    <p>Biryani is a mixed dish popular in South Asia, made with <strong>rice</strong> and <b>meat</b> of the consumer's choice. To cater to vegetarians, the meat can be substituted with <b>vegetables</b> or <b>paneer</b>.</p>
+    
+    <h2>Origins of Biryani</h2>
+    <p>The origins of biryani can be traced back to ancient Persia <i>modern-day Iran</i>, where a similar dish called pulao or pilaf was prepared.</p>
+    Another theory states that, biryani made it's way into India through the Mughal Empire, under the rule of King Babur.
+
+    <h2>Types of Briyani</h2>
+    <p>Biryani, a beloved and aromatic dish, is a flavorful celebration of spices, rice, and meat or vegetables. With roots across South Asia and the Middle East, biryani has evolved into many regional variations, each with its unique taste, preparation style, and cultural touch. From the rich Hyderabadi dum biryani to the fragrant Kolkata version, here's a look at the delicious types of biryani enjoyed around the world.</p>
+    <audio controls autoplay>
+        <source src="typesofbiryani.mp3" type="audio/mpeg">
+        Your browser doesn't support this functionality.
+    </audio>
+
+    <h2>History of Biryani</h2>
+    <p>Biryani has a rich and flavorful history that dates back several centuries, with its origins often traced to Persian cuisine. It is believed to have been brought to the Indian subcontinent by Persian travelers and Mughal rulers, where it evolved and merged with local spices and cooking traditions. Over time, biryani became a royal dish in Mughal kitchens and spread across regions, giving rise to numerous regional variations. Each version reflects the culture, ingredients, and tastes of the area, making biryani not just a dish, but a historical journey on a plate.</p>
+    <video>
+        <source src="video.mp4" type="video/mp4">
+        Your browser doesn't support this functionality.
+    </video>
+    
+    <h2>Making of Biryani</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/E_gWBBjYkjE?si=kO0sFDtICG57sWgy"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</iframe>
+</body>
