@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<header><h1>Daily Morning School</h1></header>
+<nav>
+    <ul>
+        <li><a href="Home">Home</a><br></li>
+        <li><a href="About us">About Us</a><br></li>
+        <li><a href="Academics">Academics</a><br></li>
+        <li><a href="Co Curriculum">Co Curriculum</a><br></li>
+        <li><a href="Contact Us">Contact US</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <article>
+            <p>
+                <b>Daily Morning School</b> aims to be an institution of excellence where children can achieve full potential in their academic, creative, personal, moral, and spiritual development. 
+            </p>
+        </article>
+        <aside>
+            <p>
+                DMS aims to develop globally competent and socially committed individuals who are <mark>emotional strong, physically fit, morally upright and intellectually outstanding</mark>. Holistic approach, techno-savvy atmosphere and dedicated academicians of DMS strive to achieve this mission.
+            </p>
+        </aside>
+    </section>
+    <figure>
+        <img src="school.jpg">
+        <figcaption>DMS is glad to introduce its campus!</figcaption>
+    </figure>
+</main>
+<footer>
+    Contact Us : 98XXXXXXXXXXXXX<br>
+    Email Us : DMS@gmail.com
+</footer>
