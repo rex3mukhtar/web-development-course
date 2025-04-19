@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <style>
+        /*For webpage*/
+        h2{
+            color:aqua ; 
+            background-color: black;
+            font-size: 40px;
+        }
+        #intro{
+            color: blue;
+            background-color: black;
+        }
+        .bod{
+            color: blue;
+            background-color: black;
+        }
+        #conc{
+            color: aquamarine;
+            background-color: black;
+        }
+        *{background-color: brown;}
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Webpage development</h2>
+    <p id="intro">Webpage development is the process of creating websites that can be accessed through a web browser. </p>
+    <p class="bod"> It involves both frontend development, which focuses on the visual aspects of a site such as layout, design, and user interaction using HTML, CSS, and JavaScript, and backend development, which handles server-side operations, databases, and application logic using technologies like Python, PHP, or Node.js.</p>
+    <p id="conc">Together, these elements ensure that websites are not only visually appealing but also functional and responsive. Modern web development often relies on frameworks and tools to streamline the process and enhance user experience.</p>
+
+</body>
