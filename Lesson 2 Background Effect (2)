@@ -1,1 +1,24 @@
+<!DOCTYPE html>
 
+<html>
+
+<head>
+    <style>
+        #head{
+            color: aqua;
+        }
+        body{
+            background-color: violet;
+        }
+        #grad1{
+            height: 200px;
+            background: linear-gradient(to left, pink, blue, red);
+        }
+    </style>
+</head>
+
+<body>
+    <center><h1 id="head">Welcome to Daily English School</h1></center>
+    <div id="grad1">
+    </div>
+</body>
