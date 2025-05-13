@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #head{
+            font-size: 400%;
+        }
+         #word{
+            color: red; 
+            text-decoration: overline;
+         }
+         #word2{
+            color: aqua;
+            text-decoration: line-through;
+         }
+         #word3{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: underline;
+         }
+         #word4{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+         }
+    </style>
+</head>
+
+<body>
+    <h1 id="head">Typography with Food</h1>
+    <p id="word">Food, substance consisting essentially of protien, carbohydrates, fat and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy.</p>
+    <p id="word2">The absorption and utilization of food by the body is fundamental for the body through digestion.</p>
+    <p id="word3">Animals tat feed on plants often serve as sources of food for other animals</p>
+    <p id="word4">Food is treated in a number of articles. For description of the processes of absorption and utilization of food, see nutrition; nutrition,human; digestion; and digestive system, human.</p>
+</body>
+</html>
