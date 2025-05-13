@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #relative{
+                position: relative;
+                border: 5px solid black;
+            }
+            #absolute{
+                position: absolute;
+                border: 5px solid red;
+            }
+            #static{
+                left: 30%;
+                position: static;
+                border: 5px solid aqua;
+            }
+            #fixed{
+                position: fixed;
+                border: 5px solid brown
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="relative">
+            This div element has position:relative
+        </div>
+        <div id="absolute">
+            This div element has position:absolute
+        </div>
+        <div id="static">
+            This div element has position:static
+        </div>
+        <div id="fixed">
+            This div element has position:fixed
+        </div>     
+    </body>
+</html>
