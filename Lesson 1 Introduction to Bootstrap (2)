@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+        </script>
+    </head>
+
+    <body>
+        <div>
+            <div class="row">
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;"> </div>
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Siza</div>
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Color</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Type 1</div>
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Large L</div>
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Green color Available</div>
+            </div>
+            <div class="row">
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Type 2</div>
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Small S</div>
+                <div class="col-md-2 col-xs-4" style="background-color: wheat; border: 5px solid black;">Red color Available</div>
+            </div>
+        </div>
+    </body>
+</html>
