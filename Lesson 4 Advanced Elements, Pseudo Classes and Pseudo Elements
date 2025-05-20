@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color: blue;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            ul li{
+                color: brown;
+            }
+            ul li::before{
+                content:"🚀";
+            }
+            a:hover{
+                color: aquamarine;
+            }
+            a::after{
+                content:"👾";
+            }
+            p::first-letter{
+                font-size: 100px;
+            }
+            p:not(:first-of-type){
+                text-decoration-line: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to the Space Explorer's Club</h1>
+        <ul>
+            <li>Moon Missions</li>
+            <li>Mars Rovers</li>
+            <li>International Space Station</li>
+            <li>Telescopes and Stars</li>
+            <li>Black Hole Mysteries</li>
+        </ul>
+        <p>Space exploration has always captivated human imagination. It's a journey to the unknown!</p>
+        <p>From the Moon to distant galaxies, we continue to explore the vastness of space.</p>
+        <a href="#">Join us!</a>
+        <a href="#">Fly to Moon!</a>
+        <a href="#">Gallery of Universe</a>
+    </body>
+</html>
