@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>Cricket</h1>
+    <p>is a bat-and-ball game played between two teams of <mark>eleven players</mark> on a field at the centre of which is a <code>22-yard pitch</code>.</p>
+    <p>with a wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with the bat, while the bowling and fielding side tries to prevent this and dismiss the batter</p>
+    <blockquote>
+        No cricket team in the world depends on one or two players. The team always plays to win.
+        <footer>From Virat Kohli</footer>
+    </blockquote>
+</body>
+</html>
