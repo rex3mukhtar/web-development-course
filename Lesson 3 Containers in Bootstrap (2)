@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container border 4px solid black">
+            <h1>My Hobbies</h1>
+            <p>Writing is what is have great passion and peace in.</p>
+        </div>
+        <div class="container bg-success border 5px solid black">
+            <p>Writing is an art form that can be shared with others or kept totally private. It's a way to escape the real world and make sense of it.</p>
+        </div><br>
+        <div class="container-fluid bg-success">
+            <a href="#">Join my Writing!</a>
+        </div>
+    </body>
+</html>
