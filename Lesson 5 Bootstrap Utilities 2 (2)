@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="card" width="18rem">
+                <h1 style="color: brown;">SnapGram</h1>
+                <img class="card-img-top" src="#" alt="Card image cap">
+                <div class="Card-body">
+                    <h5 class="card-title">Mukhtar</h5>
+                    <p class="card-text">Writer</p>
+                    <a class="button btn btn-primary">See profile</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
