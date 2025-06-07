@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+
+        </script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="button">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Global School</a>
+                </div>
+                <div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                    
+                        <ul class="nav navbar-nav">
+                    
+                            <li><a href="#section1">Section 1</a></li>
+                    
+                            <li><a href="#section2">Section 2</a></li>
+                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="section1" class="container-fluid">
+            <h1>Section 1</h1>
+            <h3>Introduction</h3>
+            <p>Father we thank Thee for the night
+            And for the pleasant morning light
+            For rest and food and loving care
+            And all that makes the world so fair.
+            Help us to do the things we should,
+            To be to others kind and good,
+            In all we do in all we say
+            To be more loving everyday</p>
+            <p>The Global School to be an institution of excellence where children can achieve full
+            potential in their academic, creative, personal, moral, and spiritual development.</p>
+        </div>
+        <div id="section2" class="container-fluid">
+            <h1>Section 2</h1>
+            <h3>Mission</h3>
+            <p>
+                Global School aims to develop globally competent and socially committed individuals who are emotionally strong, physically fit,
+                morally upright and intellectually outstanding. Holistic approach, techno-savvy atmosphere and dedicated academicians of
+                Golbal School strive to achieve this mission.
+            </p>
+        </div>
+    </body>
+</html>
