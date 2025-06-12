@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Multiplication</h1>
+        <p>When you multiple 4 with 5:</p>
+        <button onclick="multiplication()">Answer</button>
+        <script>
+            function multiplication(x,y)
+            {
+                x = 4; 
+                y = 5;
+                document.write(x*y);
+            }
+        </script>
+    </body>
+</html>
