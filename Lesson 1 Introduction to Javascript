@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Calculation of Numbers</h1>
+        <p id="results1"></p>
+        <p id="results2"></p>
+        <p id="results3"></p>
+        <p id="results4"></p>
+        <script>
+            var first = 10;
+            var second = 20;
+            var third = 30;
+            sum = first + second;
+            difference = third - second;
+            product = third * first;
+            quotient = second / first;
+            document.getElementById("results1").innerHTML="Addition of 10 and 20 is"+ sum
+            document.getElementById("results2").innerHTML="Subtraction of 30 and 20 is"+ difference
+            document.getElementById("results3").innerHTML="Multiplication of 10 and 30 is"+ product
+            document.getElementById("results4").innerHTML="Division of 20 and 10 is"+ quotient
+        </script>
+    </body>
+</html>
