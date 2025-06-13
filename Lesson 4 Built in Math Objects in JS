@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Maths</h1>
+        <script>
+            var value1 = Math.acos(0);
+            document.write("Value:" + value1);
+        </script>
+    </body>
+</html>
