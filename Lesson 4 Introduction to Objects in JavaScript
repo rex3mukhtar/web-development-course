@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Car Store</h1>
+        <p>Information for the first car:</p>
+        <p id="result"></p>
+        <script>
+            var body = 
+            {
+                car: "BMW",
+                color: "red", 
+                year: 2002, 
+            }
+            document.getElementById("result").innerHTML = body.car + " " + body.color + " " + body.year
+        </script>
+    </body>
+</html>
