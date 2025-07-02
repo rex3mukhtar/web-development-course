@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1> Sum of arguments and Maths</h1>
+        <p id="demo"></p>
+        <script>
+            function sumall() {
+                var sum = 0;
+                for (i=0; i < arguments.length;i++){
+                    sum += arguments[i];
+                }
+                return sum;
+            }
+            document.getElementById("demo").innerHTML=sumall(1,2,3,4,5,6,7,8,9)
+            var values = Math.cos(60);
+            document.write("Value of Cos 60:" + values + "<br>");
+            var values1 = Math.sin(60);
+            document.write("Values of Sin 60:" + values1 + "<br>");
+            var values2 = Math.tan(60);
+            document.write("Values of Tan 60:"+ values2 + "<br>");
+        </script>
+    </body>
+</html>
