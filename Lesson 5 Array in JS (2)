@@ -1,0 +1,22 @@
+let student = ["Mukhtar", "Ali", "Ijaz","Atif"]
+
+console.log(student)
+
+//add
+student.push("Sai")
+console.log(student)
+
+//remove
+student.pop()
+console.log(student)
+
+//slicing 
+console.log(student.slice(0,2))
+
+//printing types
+for (let name of student){
+    console.log(name)
+}
+for (let name in student){
+    console.log(name)
+}
