@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>DOM</title>
+    </head>
+    <body>
+        <h1 id="text1">Hello from HTML!</h1>
+        <div id="container"></div>
+        <h3 id="color">Magic word</h3>
+        <h3 id="magicmagic">Your Wish!</h3>
+        <button onclick=Red()>Red</button>
+        <button onclick=Blue()>Blue</button>
+        <button onclick=Green()>Green</button>
+        <button onclick=Brown()>Brown</button>
+        <script>
+            var text = document.getElementById("text1");
+            text.textContent = "Hello from JS!";
+
+            var container = document.getElementById("container");
+            var h1 = document.createElement("h1");
+            h1.textContent = "I am coding here!";
+            container.appendChild(h1);    
+            
+            var color = document.getElementById("color");
+            color.style.color = "Blue"
+
+            var magicmagic = document.getElementById("magicmagic");
+            function Red(){
+                magicmagic.style.color = "Red"
+            }
+            function Blue() {
+                    magicmagic.style.color = "Blue"
+            }
+            function Green() {
+                    magicmagic.style.color = "Green"
+            }
+            function Brown() {
+                    magicmagic.style.color = "Brown"
+            }
+        </script>
+
+    </body>
+</html>
