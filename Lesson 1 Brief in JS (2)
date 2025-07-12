@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Random Numbers</title>
+    </head>
+    <body>
+        <p id="results"></p>
+        <script>
+            var i;
+            var text = " " 
+            {
+                let i = 0
+                while (i<0){
+                    text += "The values inside the block" + i + "</br>";
+                    i++;
+                }
+                document.getElementById("results").innerHTML=text;
+            }
+            document.write("The value of i:"+i);
+        </script>
+    </body>
+</html>
