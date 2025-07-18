@@ -1,0 +1,12 @@
+function MakeDough(callback){
+    console.log("Step 1 : Making the Dough")
+    callback(Baking)
+}
+function Toppings(callback){
+    console.log("Step 2 : Adding the toppings")
+    callback()
+}
+function Baking(){
+    console.log("Step 3 : Baking the Pizza")
+}
+MakeDough(Toppings)
