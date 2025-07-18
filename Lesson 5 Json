@@ -1,0 +1,12 @@
+let product = {
+    Name : "Lamborginni",
+    Color : "Black",
+    Model : 12
+}
+console.log(product)
+
+let JSON_product = JSON.stringify(product)
+console.log(JSON_product)
+
+let JSON_rewind = JSON.parse(JSON_product)
+console.log(JSON_rewind)
