@@ -1,0 +1,16 @@
+let student = {
+    Name : "Mukhtar",
+    Class : 12,
+    Age : 17,
+    Location : "Kuwait"
+}
+console.log(student)
+
+student["PhoneNumber"] = 98765434578
+console.log(student) 
+
+console.log(student.Class)
+console.log(student.Name)
+
+delete student.PhoneNumber
+console.log(student)
