@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            #bg {
+                border-color: black;
+                border-width: 3px;
+                border-style: ridge;
+            }
+            #question {
+                border-color: black;
+                border-width: 3px;
+                border-style: groove;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bg" class=" bg-red-100 w-95 h-65 text-center mx-auto mt-50 ">
+            <h1 class="text-4xl"><b>Let's Calculate</b></h1><br>
+            <div>
+                <input id="question" type="text" class="text-center" placeholder="Enter your expressions"><br><br>
+                <button onclick="Calculate()" class="bg-red-500 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">Calculate</button>
+                <h3 id="result" class="text-2xl"></h3>
+            </div>
+        </div>
+        <script>
+            function Calculate() {
+                var question = document.getElementById("question").value;
+                var result = eval(question);
+                var answer = document.getElementById("result")
+                answer.textContent = result;
+            }
+        </script>
+    </body>
+</html>
