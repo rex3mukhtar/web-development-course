@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Choose Color!</h1>
+        <p id="text">Magic Text</p>
+        <button onclick=blue()>Blue</button>
+        <button onclick=red()>Red</button>
+        <button onclick=brown()>Brown</button>
+        <button onclick=green()>Green</button>
+        <script>
+            var text = document.getElementById("text");
+            function blue(){
+                text.style.color = "Blue"
+            }
+            function red(){
+                    text.style.color = "Red"
+            }
+            function brown() {
+                    text.style.color = "Brown"
+            }
+            function green(){
+                    text.style.color = "Green"
+            }
+        </script>  
+    </body>
+</html>
