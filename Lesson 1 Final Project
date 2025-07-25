@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mukku's Portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-900 text-white font-sans">
+        <section class="h-screen flex items-center justify-center text-center">
+            <div>
+                <img id="image" class="mx-auto mt-1 rounded-xl border-white border-1" src="https://xsgames.co/randomusers/assets/avatars/male/77.jpg" alt=""><br>
+                <h1 class="text-4xl font-bold text-transparent bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text">Hello! I am
+                    <span>Mukhtar</span>
+                </h1><br>
+                <p class="font-semibold">Student | Developer | Writer</p><br>
+                <div>
+                    <a class="px-4 py-2 rounded-xl bg-purple-900 border-white hover:bg-blue-300" href="#">Project</a>
+                    <a class="px-4 py-2 rounded-xl bg-blue-900 border-white hover:bg-purple-300" href="#">Contacts</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center py-20">
+            <h2 class="text-2xl font-semibold">Contact Me</h2>
+            <p>Let's Dream Together!</p><br>
+            <a class="bg-pink-300 px-6 py-3 rounded-2xl hover:bg-red-500" href="xyz@gmail.com">Email</a>
+        </section>
+    </body>
+</html>
