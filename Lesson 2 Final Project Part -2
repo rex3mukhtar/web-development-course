@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mukku's Portfolio</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-900 text-white font-sans">
+        <section class="h-screen flex items-center justify-center text-center">
+            <div>
+                <img id="image" class="mx-auto mt-1 rounded-xl border-white border-1" src="https://xsgames.co/randomusers/assets/avatars/male/77.jpg" alt=""><br>
+                <h1 class="text-4xl font-bold text-transparent bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text">Hello! I am
+                    <span>Mukhtar</span>
+                </h1><br>
+                <p class="font-semibold">Student | Developer | Writer</p><br>
+                <div>
+                    <a class="px-4 py-2 rounded-xl bg-purple-900 border-white hover:bg-blue-300" href="#">Project</a>
+                    <a class="px-4 py-2 rounded-xl bg-blue-900 border-white hover:bg-purple-300" href="#">Contacts</a>
+                    <a class="px-4 py-2 rounded-xl bg-purple-900 border-white hover:bg-blue-300" href="#">Education</a>
+                    <a class="px-4 py-2 rounded-xl bg-blue-900 border-white hover:bg-purple-300" href="#">About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="text-center py-20 px-4">
+            <h2 class="text-4xl font-semibold">About Me</h2><br>
+            <div class="text-gray-300 text-xl mx-auto">
+                <p>I am passionate student, writer and a web developer.</p>
+                <p>I find great interest in writing books, plays and dramas.</p>
+                <p>I want to pursue a career in engineering.</p>
+            </div>
+        </section>
+
+        <section id="education" class="py-20 px-4">
+            <h2 class="text-4xl text-center font-semibold">Education</h2><br>
+            <div class="flex items-center justify-center gap-10">
+                <img class="w-120 h-80 rounded-xl border-white border-1" src="https://media.licdn.com/dms/image/v2/C561BAQGYrJwHBcZ4ow/company-background_10000/company-background_10000/0/1638162231599/india_international_school_mangaf_cover?e=2147483647&v=beta&t=vz28l9d0k33hWyAgHWtzFdlU-PSH9HVW5t0SV3aA4io" alt="">
+                <div class="text-gray-300 text-center">
+                    <p class="text-2xl">India International School</p>
+                    <div class="text-xl">
+                        <p>Mangaf, Kuwait</p>
+                        <p>2011 - 2026</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="project">
+            <h2 class="text-4xl text-center font-semibold">Projects</h2><br>
+            <div>
+                <div class="bg-purple-500 rounded-xl w-90 h-90 mx-auto text-center">
+                    <h3 class="text-xl font-semibold">Calculator Using JS</h3><br>
+                    <img class="h-60 w-60 rounded-xl mx-auto" src="https://i.pinimg.com/736x/d7/c0/d9/d7c0d9a7fe0db30800911db90ef331c9.jpg" alt=""><br>
+                    <a class="bg-blue-900 px-6 py-3 rounded-2xl hover:bg-purple-900" href="https://github.com/rex3mukhtar/web-development-course/blob/main/Lesson%206%20Calculator">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center py-20">
+            <h2 class="text-2xl font-semibold">Contact Me</h2>
+            <p>Let's Dream Together!</p><br>
+            <a class="bg-red-300 px-6 py-3 rounded-2xl hover:bg-pink-500" href="xyz@gmail.com">Email</a>
+        </section>
+    </body>
+</html>
