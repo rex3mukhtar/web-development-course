@@ -1,0 +1,17 @@
+function names(name1,name2){
+    console.log(name1,": Hi, How are you?")
+    console.log(name2,": I am fine")
+}
+names("mukhtar","ijaz")
+
+function check(age){
+    if (age>=18){
+    console.log("You are allowed")
+}else{
+    console.log("You are not allowed")
+}
+}
+check(17)
+
+let add = (x) => x+x
+console.log(add(2))
