@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            #bg {
+                border-color: black;
+                border-width: 3px;
+                border-style: ridge;
+            }
+            #question {
+                border-color: black;
+                border-width: 3px;
+                border-style: groove;
+                background-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bg" class=" bg-red-100 w-95 h-100 text-center mx-auto mt-50 ">
+            <h1 class="text-4xl"><b>Let's Calculate</b></h1><br>
+            <div>
+                <input id="question" type="text" class="text-center" placeholder="Enter your expressions"><br><br>
+                <button onclick="insertValue('1')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">1</button>
+                <button onclick="insertValue('2')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">2</button>
+                <button onclick="insertValue('3')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">3</button>
+                <button onclick="insertValue('+')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">+</button>
+                <br>
+                <button onclick="insertValue('4')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">4</button>
+                <button onclick="insertValue('5')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">5</button>
+                <button onclick="insertValue('6')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">6</button>
+                <button onclick="insertValue('-')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">-</button>
+                <br>
+                <button onclick="insertValue('7')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">7</button>
+                <button onclick="insertValue('8')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">8</button>
+                <button onclick="insertValue('9')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">9</button>
+                <button onclick="insertValue('*')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">*</button>
+                <br>
+                <button onclick="insertValue('0')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">0</button>
+                <button onclick="insertValue('/')" class="bg-red-300 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">/</button>
+                <br><br>
+                <button onclick="Calculate()" class="bg-red-500 px-5 py-2 rounded-full hover:bg-white hover:text-blue-30">Calculate</button>
+                <h3 id="result" class="text-2xl"></h3>
+            </div>
+        </div>
+        <script>
+            function insertValue(val) {
+                    document.getElementById("question").value += val;
+                }
+            function Calculate() {
+                var question = document.getElementById("question").value;
+                var result = eval(question);
+                var answer = document.getElementById("result")
+                answer.textContent = result;
+            }
+        </script>
+    </body>
+</html>
