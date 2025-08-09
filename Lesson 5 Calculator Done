@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body class="bg-gray-100 flex items-center justify-center">
+        <div class="bg-white p-6 rounded-xl shadow-lg w-72">
+            <input type="text" placeholder="0" id="display" class="w-full mb-4 text-3xl text-right bg-gray-100 rounded-xl p-3 border border-gray-300">
+            <div class="grid grid-cols-4 gap-3 text-lg font-semibold">
+                <button class="btn text-red-500 rounded-xl hover:bg-gray-200">C</button>
+                <button onclick="ClearDisplay()" class="btn rounded-xl hover:bg-gray-200">C</button>
+                <button onclick="DelLastChar()" class="btn rounded-xl hover:bg-gray-200">DEL</button>
+                <button onclick="AddToDisplay('+')" class="btn operator ounded-xl hover:bg-gray-200">+</button>
+
+                <button onclick="AddToDisplay('7')" class="btn rounded-xl hover:bg-gray-200">7</button>
+                <button onclick="AddToDisplay('8')" class="btn rounded-xl hover:bg-gray-200">8</button>
+                <button onclick="AddToDisplay('9')" class="btn rounded-xl hover:bg-gray-200">9</button>
+                <button onclick="AddToDisplay('-')" class="btn operator ounded-xl hover:bg-gray-200">-</button>
+                
+                <button onclick="AddToDisplay('4')" class="btn rounded-xl hover:bg-gray-200">4</button>
+                <button onclick="AddToDisplay('5')" class="btn rounded-xl hover:bg-gray-200">5</button>
+                <button onclick="AddToDisplay('6')" class="btn rounded-xl hover:bg-gray-200">6</button>
+                <button onclick="AddToDisplay('x')" class="btn operator ounded-xl hover:bg-gray-200">x</button>
+                
+                <button  onclick="AddToDisplay('1')"class="btn rounded-xl hover:bg-gray-200">1</button>
+                <button onclick="AddToDisplay('2')" class="btn rounded-xl hover:bg-gray-200">2</button>
+                <button onclick="AddToDisplay('3')" class="btn rounded-xl hover:bg-gray-200">3</button>
+                <button onclick="AddToDisplay('/')" class="btn operator ounded-xl hover:bg-gray-200">/</button>
+
+                <button onclick="AddToDisplay('.')" class="btn rounded-xl hover:bg-gray-200">.</button>
+                <button onclick="AddToDisplay('0')" class="btn rounded-xl hover:bg-gray-200">0</button>
+                <button onclick="CalculateResult()" class="btn equals rounded-xl hover:bg-gray-200">=</button>
+
+            </div>
+        </div>
+
+        <script>
+            let display = document.getElementById("display");
+            function AddToDisplay(value){
+                display.value += value;
+            }
+            function ClearDisplay(){
+                display.value=""
+            }
+            function CalculateResult(){
+                display.value = eval(display.value)
+            }
+        </script>
+    </body>
+</html>
