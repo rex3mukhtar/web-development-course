@@ -1,0 +1,15 @@
+print("Hello World!")
+name="Mukhtar"
+print("My name is "+name)
+
+a=100
+print("Data type of 100 is: ",type(a))
+b=str(100)
+print("Now data type os 100 is:",type(b))
+
+from colorama import Fore, Back, Style, init 
+
+init(autoreset=True)
+print(Fore.RED+"Hello Guys!")
+print(Back.CYAN+"Bye Bro!")
+print(Fore.WHITE+Back.GREEN+"I am Back!")
