@@ -1,0 +1,22 @@
+import datetime
+from datetime import date, time, datetime, timedelta, timezone
+import calender
+
+today = date.today()
+print(today)
+
+print("Year: ",today.year)
+print("Month: ",today.month)
+print("Day: ", today.day)
+
+print(today.strftime("%d-%Y-%m"))
+print(today.strftime("%d-%m-%Y"))
+
+print(calendar.calendar(1879))
+print(calendar.month(3025,8))
+
+DateTime = datetime.now()
+Date = DateTime.date()
+Time = DateTime.time()
+print(Date)
+print(Time)
