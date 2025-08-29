@@ -1,0 +1,48 @@
+def wish():
+    print("Hello World")
+wish()
+
+def sing():
+    return "Happy Birthday"
+print(sing())
+
+def bye():
+    return "Adios"
+a = bye()
+print(bye())
+
+def names(name):
+    print("My name is ",name)
+names("Mukhtar")
+
+def num(a,b):
+    print(a*b)
+num(4,5)
+
+def talk(a,b="Mukku"):
+    print(a,"wants to talk to ",b)
+talk("Ijaz")
+
+
+def Add(a,b):
+    print("Your sum is:",a+b)
+def Subtract(a,b):
+    print("Your difference is:",a-b)
+def Multiply(a,b):
+    print("Your product is:",a*b)
+def Divide(a,b):
+    print("Your qoutient is:",a/b)
+Choice = input("Enter your operation:")
+a = int(input("Enter the first value:"))
+b = int(input("Enter the second value:"))
+if Choice=="Addition":
+    Add(a,b)
+elif Choice=="Subtraction":
+    Subtract(a,b)
+elif Choice=="Multiplication":
+    Multiply(a,b)
+elif Choice=="Division":
+    Divide(a,b)
+else:
+    print("Not found!")
+    
