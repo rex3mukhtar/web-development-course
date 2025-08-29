@@ -1,0 +1,6 @@
+name=input("Enter your name:")
+age=int(input("Enter your age:"))
+if age>21:
+    print(name,", you are allowed to attend the exam")
+else:
+    print(name, ", you cannot attend the exam")
