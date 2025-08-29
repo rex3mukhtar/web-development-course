@@ -1,0 +1,5 @@
+x = int(input("Enter the first number:"))
+y = int(input("Enter the second number:"))
+print("The given values of x and y are: ",x,y)
+x,y=y,x
+print("The new values of x and y are: ",x,y)
