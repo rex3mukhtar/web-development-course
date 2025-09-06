@@ -1,0 +1,23 @@
+fruits = ["Banana","Apple","Orange","Cherry"]
+print(fruits[1])
+fruits.append("Dragonfruit")
+print(fruits)
+fruits.remove("Apple")
+print(fruits)
+print(len(fruits))
+fruits.reverse()
+print(fruits)
+
+dict = {
+    "Name" : "Mukku",
+    "Age" : 17,
+    "Grade" : 12
+}
+
+print(dict["Name"])
+dict["Grade"] = 11
+print(dict)
+print(dict.pop("Grade"))
+
+Names = ("Mukhtar","Ijaz","Ali")
+print(Names[0])
