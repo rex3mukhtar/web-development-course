@@ -1,0 +1,27 @@
+class bird:
+    beak = 1
+    eye = 2
+    wing = 2
+    feet = 2
+parrot = bird()
+peacock = bird()
+sparrow = bird()
+
+class school:
+    chair = 32
+    table = 32
+    cupboard = 2
+    board = 2
+Seventh = school()
+Eighth = school()
+Nineth = school()
+
+class sports:
+    net = 1
+    basket = 2
+    goalpost = 2
+    shuttle = 1
+volleyball = sports()
+basketball = sports()
+football = sports()
+badminton = sports()
