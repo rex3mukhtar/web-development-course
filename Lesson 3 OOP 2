@@ -1,0 +1,39 @@
+class bird:
+    beak = 1
+    eye = 2
+    wing = 2
+    feet = 2
+parrot = bird()
+peacock = bird()
+sparrow = bird()
+
+class school:
+    chair = 32
+    table = 32
+    cupboard = 2
+    board = 2
+Seventh = school()
+Eighth = school()
+Nineth = school()
+
+class sports:
+    net = 1
+    basket = 2
+    goalpost = 2
+    shuttle = 1
+volleyball = sports()
+basketball = sports()
+football = sports()
+badminton = sports()
+
+class student:
+    def __init__(self,n,r,c):
+        self.Name = n
+        self.Roll = r
+        self.Class = c
+s1 = student("Mukhtar",2,10)
+s2 = student("Ijaz",2,11)
+s3 = student("Tabish",2,12)
+print(s1.Name)
+print(s2.Name)
+print(s3.Name)
