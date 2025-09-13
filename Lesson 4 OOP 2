@@ -1,0 +1,17 @@
+def SetName(self,newName):
+    self.Name=newName
+
+s1 = student("Ijaz",1,10)
+s2 = student("Mukhtar",2,12)
+
+class Animal:
+    def __init__(self, sound):
+        self.sound = sound
+
+    def GetSound(self):
+        print(self.sound)
+
+Dog = Animal("Bark Bark")
+Cat = Animal("Meow Meow")
+Dog.GetSound()
+Cat.GetSound()
