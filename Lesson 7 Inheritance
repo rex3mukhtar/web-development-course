@@ -1,0 +1,14 @@
+class Maths:
+    x = 20
+    y = 30
+
+class Multiplication:
+    z = 20*30
+
+class answer(Maths,Multiplication):
+    pass
+
+result = answer()
+print(result.x)
+print(result.y)
+print(result.z)
