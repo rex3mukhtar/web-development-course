@@ -1,0 +1,48 @@
+from abc import ABC , abstractmethod
+
+class Car(ABC):
+
+
+@abstractmethod
+
+def start(self):
+
+pass
+
+
+@abstractmethod
+
+def drive(self):
+
+pass
+
+
+class Tesla(Car):
+
+def start(self):
+
+print("Car started with a button!")
+
+
+def drive(self):
+
+print("Car is driving silently and Electrical")
+
+class Maruti(Car):
+
+def start(self):
+
+print("Car started with a key")
+
+
+def drive(self):
+
+print("Car is driving using Petrol")
+
+tesla = Tesla()
+
+tesla.drive()
+
+maruti = Maruti()
+
+maruti.drive()
